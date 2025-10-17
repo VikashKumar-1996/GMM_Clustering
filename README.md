@@ -25,7 +25,7 @@ Checked for missing values and data consistency.
 Outlier Detection:
 Applied the IQR method to detect outliers in numerical features.
 Removed detected outliers for cleaner clustering results.
-### Feature Scaling:
+#### Feature Scaling:
 
 Used StandardScaler to normalize numerical columns for PCA and GMM.
 
