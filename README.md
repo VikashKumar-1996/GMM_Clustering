@@ -4,36 +4,21 @@ This project explores the Iris flower dataset using data preprocessing, Principa
 
 The goal is to demonstrate a complete unsupervised learning pipeline — from cleaning and scaling data to visualizing meaningful clusters in a reduced feature space.
 ## Dataset
-
 Iris Dataset — a classic dataset containing measurements of 150 iris flowers from three species:
-
 Iris Setosa
-
 Iris Versicolor
-
 Iris Virginica
-
 Features:
-
 Sepal Length
-
 Sepal Width
-
 Petal Length
-
 Petal Width
-
 ## Workflow Overview
 1. Data Preprocessing
-
 Loaded the dataset using sklearn.datasets or ucimlrepo.
-
 Checked for missing values and data consistency.
-
 Outlier Detection:
-
 Applied the IQR method to detect outliers in numerical features.
-
 Removed detected outliers for cleaner clustering results.
 
 Feature Scaling:
