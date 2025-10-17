@@ -8,7 +8,7 @@ Iris Dataset — a classic dataset containing measurements of 150 iris flowers f
 Iris Setosa
 Iris Versicolor
 Iris Virginica
-Features:
+### Features:
 Sepal Length
 Sepal Width
 Petal Length
@@ -20,11 +20,8 @@ Checked for missing values and data consistency.
 Outlier Detection:
 Applied the IQR method to detect outliers in numerical features.
 Removed detected outliers for cleaner clustering results.
-
-Feature Scaling:
-
+### Feature Scaling:
 Used StandardScaler to normalize numerical columns for PCA and GMM.
-
 2. Dimensionality Reduction (PCA)
 
 Applied Principal Component Analysis (PCA) to reduce the data from 4D to 2D.
