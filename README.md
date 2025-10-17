@@ -31,10 +31,13 @@ Used StandardScaler to normalize numerical columns for PCA and GMM.
 
 2. Dimensionality Reduction (PCA)
    
-Applied Principal Component Analysis (PCA) to reduce the data from 4D to 2D.
+Applied Principal Component Analysis (PCA) to reduce the data from 4D to 3D.
 Retained 95% of variance while simplifying visualization.
-Visualized the first two principal components.
+Visualized the first three principal components.
 4. Clustering (GMM)
+
 Applied Gaussian Mixture Model (GMM) clustering on PCA-transformed data.
+
 Compared clustering results with true species labels.
+
 Visualized clusters using color-coded scatter plots.
